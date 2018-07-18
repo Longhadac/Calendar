@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calendar.Detail">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="{Binding Date}" />
+            <Label Text="{Binding LunarDate}" />
+            <Label Text="{Binding LunarDayName}" />
+            <Label Text="{Binding LunarMonthName}" />
+            <Label Text="{Binding LunarYearName}" />
+            <Label Text="{Binding EventInfo}" />
+            <Label Text="{Binding ExtraInfo}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
